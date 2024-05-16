@@ -1,0 +1,168 @@
+* { padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+body {
+	background:#202020;
+	
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#landing, #tools-bg {
+background-image: url(./images/bg2.png);
+background-size: cover;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.nav-link{
+	font-weight: 700;
+}
+
+#navbarNav a {
+	color: white;
+	transition: all 0.3s;
+	
+}
+
+#navbarNav a:hover {
+	color: yellowgreen;
+	transform: scale(1.2);
+
+
+}
+
+#logo-name{
+	color: white;
+	transition: all 0.3s;
+
+}
+
+#logo-name:hover{
+	color: yellowgreen;
+	transform: scale(1.2);
+}
+
+h1 {
+	font-size: 3.5rem;
+	padding: -10px;
+}
+
+
+#map-area{
+	width: 1200px;
+	height: 400px;
+}
+
+.text-muted {
+	color: #6c757d !important;
+	font-family: Montserrat;
+}
+
+.logo {
+	height: 60px;
+	padding: 10px;
+	transition: all 0.3s;
+	
+}
+
+.contact-icon {
+	height: 20px;
+	transition: all 0.3s;
+}
+
+#contactIconList img:hover {
+	filter: invert(50%) sepia(100%) saturate(401%) hue-rotate(45deg) brightness(104%) contrast(100%);
+	transform: scale(1.1);
+}
+
+h2 {
+	color: yellowgreen;
+	font-weight: 800;
+}
+
+span {
+	color: yellowgreen;
+	font-weight: 700;
+}
+
+#btn-send:hover {
+	background: yellowgreen;
+	border: 1p solid yellowgreen;
+	transform: scale(1.1);
+}
+
+#btn-send:hover {
+	transition: all 0.3s;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+
+.card {
+	transition: all 0.3s;
+}
+
+.card-btn {
+	background: white;
+	color: black;
+	border-radius: 5px;
+	height: 40px;
+	width: 150px;
+	box-shadow: none;
+	border-style: none;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+.card-btn:hover {
+	background: yellowgreen;
+	transition: all 0.3s;
+
+}
+
+.card-btn a {
+	text-decoration: none;
+	color: black;
+}
+
+.card-title {
+	color: yellowgreen;
+}
+
+.gotopbtn {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background-color: yellowgreen;
+	bottom: 80px;
+	right: 50px;
+	border-radius: 50%;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 10px;
+	color: white;
+	font-size: 22px;
+	transition: 0.3s;
+}
+
+.gotopbtn img {
+height: 40px;
+padding-top: 10px;
+filter: brightness(0) saturate(100%) invert(9%) sepia(8%) saturate(1218%) hue-rotate(169deg) brightness(97%) contrast(87%);
+}
+
+.gotopbtn:hover {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	transform: scale(1.1);
+}
